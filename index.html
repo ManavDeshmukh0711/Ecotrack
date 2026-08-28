@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrack - Smart Waste Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-success" href="#home">♻️ EcoTrack</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#waste">Waste Guide</a></li>
+                <li class="nav-item"><a class="nav-link" href="#how">How It Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#checker">Waste Checker</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tips">Eco Tips</a></li>
+                <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                    <a class="btn btn-success px-4" href="#report">Report Waste</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-12 col-lg-7">
+                <span class="badge bg-success-subtle text-success mb-3">Sustainable Waste Management</span>
+                <h1 class="hero-title">Manage Waste Today for a <span class="text-success">Cleaner Tomorrow.</span></h1>
+                <p class="lead text-muted mb-4">
+                    EcoTrack helps people understand waste segregation, choose the right disposal method
+                    and report waste problems in their area.
+                </p>
+                <a href="#checker" class="btn btn-success btn-lg">Check My Waste</a>
+                <a href="#waste" class="btn btn-outline-success btn-lg ms-2">Explore Waste Guide</a>
+            </div>
+            <div class="col-12 col-lg-5">
+                <div class="hero-card">
+                    <div class="eco-symbol">♻</div>
+                    <h3 class="text-center">Clean habits start with you.</h3>
+                    <p class="text-center text-muted">Identify, segregate and dispose waste responsibly.</p>
+                    <div class="row text-center mt-4">
+                        <div class="col-4"><strong class="fs-4 d-block">6</strong><small class="text-muted">Waste Types</small></div>
+                        <div class="col-4"><strong class="fs-4 d-block">6+</strong><small class="text-muted">Eco Tips</small></div>
+                        <div class="col-4"><strong class="fs-4 d-block">24/7</strong><small class="text-muted">Access</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="waste" class="section">
+    <div class="container">
+        <div class="section-title">
+            <span class="text-success fw-semibold">WASTE GUIDE</span>
+            <h2>Know Your Waste</h2>
+            <p>Learn how to identify and dispose different types of waste.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4"><div class="waste-card"><div class="waste-icon">🥦</div><h4>Wet Waste</h4><p>Food leftovers, fruit peels, vegetable waste and kitchen waste.</p><span class="badge bg-success">Compost / Wet Bin</span></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="waste-card"><div class="waste-icon">📦</div><h4>Dry Waste</h4><p>Paper, cardboard, newspapers and other recyclable materials.</p><span class="badge bg-primary">Recycle</span></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="waste-card"><div class="waste-icon">🧴</div><h4>Plastic Waste</h4><p>Plastic bottles, containers, wrappers and packaging materials.</p><span class="badge bg-warning text-dark">Clean & Recycle</span></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="waste-card"><div class="waste-icon">💻</div><h4>E-Waste</h4><p>Old phones, computers, chargers and electronic devices.</p><span class="badge bg-danger">E-Waste Centre</span></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="waste-card"><div class="waste-icon">🍾</div><h4>Glass Waste</h4><p>Glass bottles, jars and other reusable glass items.</p><span class="badge bg-info text-dark">Glass Recycling</span></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="waste-card"><div class="waste-icon">🔋</div><h4>Battery Waste</h4><p>Used batteries from phones, remotes and electronic devices.</p><span class="badge bg-dark">Special Collection</span></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="how" class="section section-light">
+    <div class="container">
+        <div class="section-title">
+            <span class="text-success fw-semibold">HOW IT WORKS</span>
+            <h2>Three Simple Steps</h2>
+            <p>Manage your waste in a simple and responsible way.</p>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-12 col-md-4"><div class="step-card"><div class="step-number">1</div><h4>Identify</h4><p>Identify the type of waste before throwing it away.</p></div></div>
+            <div class="col-12 col-md-4"><div class="step-card"><div class="step-number">2</div><h4>Segregate</h4><p>Separate wet, dry, plastic and special waste.</p></div></div>
+            <div class="col-12 col-md-4"><div class="step-card"><div class="step-number">3</div><h4>Dispose</h4><p>Choose the correct recycling or disposal method.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="checker" class="section">
+    <div class="container">
+        <div class="section-title">
+            <span class="text-success fw-semibold">SMART TOOL</span>
+            <h2>Waste Checker</h2>
+            <p>Select an item and get a recommended disposal method.</p>
+        </div>
+        <div class="checker-box mx-auto">
+            <label for="wasteSelect" class="form-label fw-semibold">Select Waste Item</label>
+            <select id="wasteSelect" class="form-select form-select-lg">
+                <option value="">-- Choose an item --</option>
+                <option value="food">Food Waste</option>
+                <option value="paper">Paper</option>
+                <option value="plastic">Plastic Bottle</option>
+                <option value="glass">Glass Bottle</option>
+                <option value="ewaste">Old Mobile Phone</option>
+                <option value="battery">Battery</option>
+            </select>
+            <button class="btn btn-success btn-lg w-100 mt-3" onclick="checkWaste()">Check Category</button>
+            <div id="resultBox" class="result-box mt-4 d-none"></div>
+        </div>
+    </div>
+</section>
+
+<section id="tips" class="section section-light">
+    <div class="container">
+        <div class="section-title">
+            <span class="text-success fw-semibold">ECO TIPS</span>
+            <h2>Small Actions, Big Impact</h2>
+            <p>Simple habits that can help protect our environment.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4"><div class="tip-card"><div class="tip-icon">🛍️</div><h4>Use Reusable Bags</h4><p>Carry reusable bags instead of using single-use plastic bags.</p></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="tip-card"><div class="tip-icon">♻️</div><h4>Recycle More</h4><p>Separate recyclable materials and send them for recycling.</p></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="tip-card"><div class="tip-icon">🌱</div><h4>Compost Food Waste</h4><p>Convert suitable kitchen waste into useful compost.</p></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="tip-card"><div class="tip-icon">💧</div><h4>Save Water</h4><p>Avoid unnecessary water usage in daily activities.</p></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="tip-card"><div class="tip-icon">🔌</div><h4>Save Electricity</h4><p>Switch off lights and electronic devices when they are not needed.</p></div></div>
+            <div class="col-12 col-md-6 col-lg-4"><div class="tip-card"><div class="tip-icon">🌳</div><h4>Keep Your Area Clean</h4><p>Avoid littering and encourage others to maintain clean surroundings.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="report" class="section">
+    <div class="container">
+        <div class="section-title">
+            <span class="text-success fw-semibold">REPORT</span>
+            <h2>Report a Waste Problem</h2>
+            <p>Phase-I frontend demonstration.</p>
+        </div>
+        <div class="form-box mx-auto">
+            <form id="reportForm">
+                <div class="mb-3">
+                    <label class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Location</label>
+                    <input type="text" class="form-control" id="location" placeholder="Enter waste location" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Waste Type</label>
+                    <select class="form-select" id="wasteType" required>
+                        <option value="">Select waste type</option>
+                        <option>Wet Waste</option>
+                        <option>Dry Waste</option>
+                        <option>Plastic Waste</option>
+                        <option>E-Waste</option>
+                        <option>Glass Waste</option>
+                        <option>Battery Waste</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Description</label>
+                    <textarea class="form-control" id="description" rows="4" placeholder="Describe the waste problem" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success btn-lg w-100">Submit Report</button>
+                <div id="reportMessage" class="alert alert-success mt-3 d-none">
+                    Report submitted successfully! (Frontend Demo)
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="container">
+        <div class="section-title">
+            <span class="text-success fw-semibold">SDG ALIGNMENT</span>
+            <h2>EcoTrack & Sustainable Development</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-4"><div class="sdg-card"><h4>SDG 11</h4><p>Sustainable Cities and Communities</p></div></div>
+            <div class="col-12 col-md-4"><div class="sdg-card"><h4>SDG 12</h4><p>Responsible Consumption and Production</p></div></div>
+            <div class="col-12 col-md-4"><div class="sdg-card"><h4>SDG 13</h4><p>Climate Action</p></div></div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container text-center">
+        <h5>♻️ EcoTrack</h5>
+        <p>Smart Waste Management Web Application</p>
+        <small>Phase I Frontend Prototype | PBL Activity</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
